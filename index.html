@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Layout</title>
+    <style> 
+    *{
+        padding:0;
+        margin:0;
+    }
+    #container{
+        padding:15px;
+        width:1200px;
+        margin:0px auto;
+    }
+    #header{
+        background-color:grey;
+        height:50px;
+        margin-bottom:15px;
+       display:flex;
+        justify-content:center;
+        align-items:center;
+        font-size:40px;
+        color:white;
+        
+
+    }
+    #banner{
+        background-color:aqua;
+        height:250px;
+        margin-bottom:15px;
+        border-radius:15px;
+       display:flex;
+        justify-content:center;
+        align-items:center;
+        font-size:40px;
+        color:white;
+    }    
+#section-1{
+display:flex;
+flex-direction:row;
+margin:30px;
+}
+#circle1{
+     border-radius:50%;
+     background-color:darkgoldenrod;   
+        order:1;
+        margin-right:100px;
+        width:25%;
+        height:300px;
+    }    
+    #circle2{
+     border-radius:50%;
+     background-color:darkgoldenrod;   
+        order:1;
+        margin-right:100px;
+        width:25%;
+        height:300px;
+    }    #circle3{
+     border-radius:50%;
+     background-color:darkgoldenrod;   
+        order:1;
+        margin-right:100px;
+        width:25%;
+        height:300px;
+    }    #circle4{
+     border-radius:50%;
+     background-color:darkgoldenrod;   
+        order:1;
+        margin-right:100px;
+        width:25%;
+        height:300px;
+    }    
+    #content{
+        display:flex;
+        flex-direction:row;
+        margin:5px;
+    }
+    #left-sidebar{
+        width:50%;
+        float:left;
+        height:630px;
+        background-color:grey;
+        margin-bottom:15px;
+        margin-right:15px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        font-size:30px;
+        color:white;
+    }
+    
+    #right-sidebar{
+        width:48%;
+       
+        float:right;
+       }
+       #article1{
+           height:200px;
+           background-color:orangered;
+           margin-bottom:15px;
+           display:flex;
+        justify-content:center;
+        align-items:center;
+        font-size:30px;
+        color:white;
+       }
+       #article2{
+           height:200px;
+           background-color:orangered;
+           margin-bottom:15px;
+           display:flex;
+        justify-content:center;
+        align-items:center;
+        font-size:30px;
+        color:white;
+       }
+       #article3{
+           height:200px;
+           background-color:orangered;
+           margin-bottom:15px;
+           display:flex;
+        justify-content:center;
+        align-items:center;
+        font-size:30px;
+        color:white;
+       }
+       #section3{
+           display:flex;
+           flex-direction:row;
+           margin:30px;
+       }
+       #part1{
+           order:1;
+           width:300px;
+           height:500px;
+           background-color:orange;
+           margin-right:15px;
+           margin-left:15px;
+       }
+       #part2{
+           order:2;
+           width:300px;
+           height:500px;
+           background-color:orange;
+           margin-right:15px;
+           margin-left:15px;
+       }#part3{
+           order:3;
+           width:300px;
+           height:500px;
+           background-color:orange;
+           margin-right:15px;
+           margin-left:15px;
+       }
+       #part4{
+           order:4;
+           width:300px;
+           height:500px;
+           background-color:orange;
+           margin-right:15px;
+           margin-left:15px;
+       }
+    #footer{
+        background-color:grey;
+        height:70px;
+       
+        margin-bottom:15px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        font-size:30px;
+        color:white;
+        
+    }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="header">Header</div>
+        <div id="banner">Banner</div>
+        <div id="section-1">Section-1
+            <div id="circle1"></div>
+            <div id="circle2"></div>
+            <div id="circle3"></div>
+            <div id="circle4"></div>
+        </div>
+        <div id="content">
+          <div id="left-sidebar">Main content</div>
+            <div id="right-sidebar">
+                <div id="article1">Article 1</div>
+                <div id="article2">Article 2</div>
+                <div id="article3">Article 3</div>
+            </div>
+        </div>
+        <h1>Section-3</h1>
+        <div id="section-3">
+            <div id="part1"></div>
+            <div id="part2"></div>
+            <div id="part3"></div>
+            <div id="part4"></div>
+        </div>
+        <h1>Section-4</h1>
+        <div id="footer">Footer</div>
+       
+      </div>
+</body>
+</html>
